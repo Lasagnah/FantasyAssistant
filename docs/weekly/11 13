@@ -1,0 +1,52 @@
+Project Weekly Report
+Team Report
+Section 1 (what did you do last week)
+Continue to work on making sure database is working as needed
+We should start to develop other use cases (Trade Analyzer, Waiver Wire, Injury, Lineup)
+Section 2 (what did you do this week)
+Work more on prediction algorithm (Implement Qlearning, Sarsa, etc)
+Section 3 (next week)
+Put together a prototype of prediction algorithm
+Work more on use cases
+Individual Contributions
+Lily
+Section 1 (what did you do last week)
+Next week I want to start setting up the prediction algorithm for the games.
+Section 2 (what did you do this week)
+This week I did a bunch of research on Qlearning and Sarsa stuff to work on the prediction algorithm.
+Section 3 (next week)
+Next week I want to create the implementation for the prediction algorithm using Markov decision processes
+Akhil
+Section 1 (what did you do last week)
+Continue to improve the layot of database making sure all data is accurate
+Succesfully connected database to draft code
+We now have a working draft simulation with all the players added in a database
+Section 2 (what did you do this week)
+Work on updating database to use stats from this year and last as they are more relavent
+Section 3 (next week)
+Continue to enhance data quality and consistency
+Connect the database to other use case when we create codes for them
+Mahir
+Section 1 (what did you do last week)
+Added scores to the players based on the stats so it suggests who the best player to draft best on the available players during the draft
+Section 2 (what did you do this week)
+Downloaded ESPN fantasy app to see what kind of feature we will need to put to take it to the next level
+Section 3 (Next week)
+Continue to monitor the fantasy apps across all platforms to see which key features we might need to implement
+Yohanse
+Section 1 (Last week)
+Checked the project progress with Akhil and offered help if any is needed
+Downloaded ESPN Fantasy to mess around and check how NBA Fantasy managers manage their team
+Watched some videos of what the important stats are
+Section 2(what did you do this week)
+Checked progress
+Section 3 (Next week)
+Work on testing and continuous integration assignments with the team
+Syed
+Section 1 (Last week)
+Started planning the structure of the backend services and how they will interact with the database.
+Section 2(what did you do this week)
+Progressed with initial backend setup, implementing foundational services and setting up core database connections. Defined key API endpoints for essential use cases, ensuring alignment with overall project requirements.
+Section 3 (Next week)
+Begin setting up backend infrastructure for testing and debugging to streamline future development.
+Collaborate with the team to integrate backend components with frontend, focusing on enhancing user experience and ensuring seamless data flow between layers.
