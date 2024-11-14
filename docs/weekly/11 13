@@ -18,11 +18,10 @@ Section 3 (next week)
 Next week I want to create the implementation for the prediction algorithm using Markov decision processes
 Akhil
 Section 1 (what did you do last week)
-Continue to improve the layot of database making sure all data is accurate
-Succesfully connected database to draft code
 We now have a working draft simulation with all the players added in a database
-Section 2 (what did you do this week)
 Work on updating database to use stats from this year and last as they are more relavent
+Section 2 (what did you do this week)
+
 Section 3 (next week)
 Continue to enhance data quality and consistency
 Connect the database to other use case when we create codes for them
