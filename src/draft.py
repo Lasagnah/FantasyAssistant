@@ -1,5 +1,5 @@
 from database import get_player_data, setup_database
-
+from prediction_method import display_prediction_results
 
 def calculate_player_score(player):
     ppg = player['points_per_game']
@@ -70,6 +70,7 @@ def draft_players():
             print(
                 f"  {player['name']} ({player['team']}) - PPG: {player['points_per_game']:.1f}, RPG: {player['rebounds_per_game']:.1f}, APG: {player['assists_per_game']:.1f}")
 
+    display_prediction_results(teams)
 
 if __name__ == "__main__":
     setup_database()  # Update the database before starting the draft
