@@ -1,4 +1,4 @@
-![basket_splash_image](https://github.com/luke-lite/NBA-Prediction-Modeling/blob/bb32ed36cf7d06a4c0a9ed94a69e6f9b6906fbc8/basketball-splash-image.jpg)
+![Cunningham-Curry-Possibilities](https://github.com/user-attachments/assets/8ca4c94f-4f4e-45a2-952f-5864d5499fb3)
 # Fantasy Assistant
 ## Table of Contents
 * Introduction
