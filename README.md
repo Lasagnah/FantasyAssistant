@@ -1,4 +1,9 @@
-# Fantasy Assistant
+## Fantasy Assistant
+# Table of Contents
+* Introduction
+* Data Collection and Cleaning
+* Setting up and Training Models
+* Results
 ## What is this project? 
 * Fantasy Assistant is a comprehensive NBA fantasy draft simulation and analysis tool developed as a senior-level software engineering project. The system provides intelligent player drafting, team performance prediction, and statistical analysis. 
 * See requirements.md for more information.
