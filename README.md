@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/7cfbb200-7613-45d3-8812-511390f8c96b)
 # Fantasy Assistant
 ## Table of Contents
 * Introduction
