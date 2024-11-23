@@ -9,6 +9,14 @@
 * See requirements.md for more information.
 ## How is this project organized?
 * This project is organized in a way such that the src folder contains most of the python files and the docs folder contains the documents and the tests folder contains tests for the python code.
+## Prerequisites
+* Python 3.9+
+* pip package manager
+* Git
+## Key Features
+* NBA player data scraping
+* Interactive fantasy draft simulation
+* Advanced team performance prediction using Markov Decision Process
 ## Data Collection
 * The project collects player data from Basketball Reference using web scraping techniques. The data is then cleaned and processed to ensure accuracy, removing any incomplete or irrelevant entries. This step is crucial for creating a reliable dataset that informs the drafting and prediction algorithms.
 ## Training Models
