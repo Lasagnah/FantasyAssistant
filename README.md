@@ -1,5 +1,5 @@
-## Fantasy Assistant
-# Table of Contents
+# Fantasy Assistant
+## Table of Contents
 * Introduction
 * Data Collection and Cleaning
 * Setting up and Training Models
