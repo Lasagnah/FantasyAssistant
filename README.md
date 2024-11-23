@@ -23,6 +23,6 @@
 * The project utilizes various algorithms, including value iteration for Markov Decision Processes (MDP) to predict team performance based on player statistics. The models are trained on the cleaned dataset, allowing for dynamic evaluation of player contributions and team strategies during the draft simulation.
 ## Results
 * The Fantasy Assistant provides users with detailed insights into team performance, including scoring potential, playmaking ability, defensive impact, and shooting efficiency. The system also predicts the winning team based on current rosters and player statistics, offering a data-driven approach to fantasy sports drafting.
-* <img width="488" alt="image" src="https://github.com/user-attachments/assets/06a39038-b71d-44fb-9925-cd81a14c187c">
-* <img width="335" alt="image" src="https://github.com/user-attachments/assets/a22a1ddb-de71-4173-985f-e87eb350a00c">
+  <img width="488" alt="image" src="https://github.com/user-attachments/assets/06a39038-b71d-44fb-9925-cd81a14c187c">
+  <img width="335" alt="image" src="https://github.com/user-attachments/assets/a22a1ddb-de71-4173-985f-e87eb350a00c">
 
