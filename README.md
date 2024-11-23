@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7cfbb200-7613-45d3-8812-511390f8c96b)
+![basket_splash_image](https://github.com/luke-lite/NBA-Prediction-Modeling/blob/bb32ed36cf7d06a4c0a9ed94a69e6f9b6906fbc8/basketball-splash-image.jpg)
 # Fantasy Assistant
 ## Table of Contents
 * Introduction
