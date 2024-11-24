@@ -2,8 +2,11 @@
 # Fantasy Assistant
 ## Table of Contents
 * Introduction
+* Prerequisites
+* Key Features
 * Data Collection and Cleaning
 * Setting up and Training Models
+* Running the System
 * Results
 ## What is this project? 
 * Fantasy Assistant is a comprehensive NBA fantasy draft simulation and analysis tool developed as a senior-level software engineering project. The system provides intelligent player drafting, team performance prediction, and statistical analysis. 
@@ -22,6 +25,13 @@
 * The project collects player data from Basketball Reference using web scraping techniques. The data is then cleaned and processed to ensure accuracy, removing any incomplete or irrelevant entries. This step is crucial for creating a reliable dataset that informs the drafting and prediction algorithms.
 ## Training Models
 * The project utilizes various algorithms, including value iteration for Markov Decision Processes (MDP) to predict team performance based on player statistics. The models are trained on the cleaned dataset, allowing for dynamic evaluation of player contributions and team strategies during the draft simulation.
+## Running the System
+* Run the python file __init__.py
+* Follow the on-screen prompts to participate in the draft:
+** Enter the number of players when prompted.
+** For each round, select a player by entering their corresponding number.
+** Type 's' to see more available players if needed.
+* After the draft concludes, the system will display the draft results and team performance predictions.
 ## Results
 * The Fantasy Assistant provides users with detailed insights into team performance, including scoring potential, playmaking ability, defensive impact, and shooting efficiency. The system also predicts the winning team based on current rosters and player statistics, offering a data-driven approach to fantasy sports drafting.
 * <img width="488" alt="image" src="https://github.com/user-attachments/assets/06a39038-b71d-44fb-9925-cd81a14c187c">
