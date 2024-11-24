@@ -27,4 +27,5 @@
 * <img width="488" alt="image" src="https://github.com/user-attachments/assets/06a39038-b71d-44fb-9925-cd81a14c187c">
 * Program starts with asking how many teams are picking, then first team are given the top 5 players avaialble with the option to see all players by typing 's' and a suggested pick.
 * <img width="335" alt="image" src="https://github.com/user-attachments/assets/a22a1ddb-de71-4173-985f-e87eb350a00c">
+* After all teams have selected, the program will give a detailes list of statistics and prediction winner.
 
