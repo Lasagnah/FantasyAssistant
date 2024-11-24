@@ -28,9 +28,9 @@
 ## Running the System
 * Run the python file __init__.py
 * Follow the on-screen prompts to participate in the draft:
-** Enter the number of players when prompted.
-** For each round, select a player by entering their corresponding number.
-** Type 's' to see more available players if needed.
+  Enter the number of players when prompted.
+  For each round, select a player by entering their corresponding number.
+  Type 's' to see more available players if needed.
 * After the draft concludes, the system will display the draft results and team performance predictions.
 ## Results
 * The Fantasy Assistant provides users with detailed insights into team performance, including scoring potential, playmaking ability, defensive impact, and shooting efficiency. The system also predicts the winning team based on current rosters and player statistics, offering a data-driven approach to fantasy sports drafting.
