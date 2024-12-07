@@ -226,23 +226,23 @@ We plan to code our assignment following the [PEP 8 Python Style](https://peps.p
 GitHub Action:
 * Native GitHub integration
 * Free for public repos
-* Large marketplace of actions<br />
+* Large marketplace of actions
 Travis CI:
 * Simple configuration
-* Good documentation<br />
+* Good documentation
 ##### Cons
 GitHub Action:
 * Potentially complex YAML config
-* Limited run time on free tier<br />
+* Limited run time on free tier
 Travis CI:
 * Can be slow for larger projects
-* Limited free tier<br />
+* Limited free tier
 #### CI Build Execution:
 The following tests will be executed in each CI build:
 * Unit tests
 * Integration tests
 * Linting checks (using flake8)
-* Type checking (using mypy)<br />
+* Type checking (using mypy)
 #### CI Build Triggers:
 A CI build will be triggered by the following development actions:
 * Push to any branch
