@@ -12,8 +12,9 @@ def calculate_team_state(team):
 
     # Calculate team averages
     total_points = sum(player['points_per_game'] for player in team)
-    total_assists = sum(player['assists_per_game'] for player in team)
-    total_defense = sum(player['steals_per_game'] + player['blocks_per_game']
+    total_assists = sum(player['assists_per_game']for player in team)
+    total_defense = sum(player['steals_per_game'] + 
+                        player['blocks_per_game']
                         for player in team)
 
     # Calculate shooting efficiency

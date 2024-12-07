@@ -2,7 +2,9 @@ import sqlite3
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-
+import random
+ENTROPY = False
+DEBUG = False
 
 def fetch_nba_data():
     """
@@ -41,7 +43,10 @@ def fetch_nba_data():
 
             # Calculate per-game averages
             for stat in ['points', 'rebounds', 'assists', 'steals', 'blocks', 'threes_made']:
-                df[f'{stat}_per_game'] = df[stat] / df['games_played']
+                if (ENTROPY):
+                    df[f'{stat}_per_game'] = (df[stat] / df['games_played']) * get_entropy(15)
+                else:
+                    df[f'{stat}_per_game'] = (df[stat] / df['games_played'])
 
             return df
         else:
@@ -62,6 +67,8 @@ def setup_database():
     if not df.empty:
         df.to_sql('players', conn, if_exists='replace', index=False)
         print(f"Database updated with {len(df)} players.")
+        if (DEBUG):
+            df.to_csv("nba_players.csv", encoding='utf-8', index=False)
     else:
         print("Failed to update database due to empty dataset.")
     conn.close()
@@ -76,6 +83,14 @@ def get_player_data():
         df = df.rename(columns={'Tm': 'team'})
     return df.to_dict('records')
 
+def get_entropy(level):
+    '''
+    returns the value to multiply by to scale a value
+    '''
+    scaler = random.uniform(-1 * (level/100), 1 * (level/100))
+    return 1 - scaler
 
 if __name__ == "__main__":
-    setup_database()
+    setup_database()    
+
+
